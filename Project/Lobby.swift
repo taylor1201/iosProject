@@ -48,10 +48,24 @@ class Lobby: UIViewController, UICollectionViewDelegate, UICollectionViewDataSou
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let userDefaults = UserDefaults.standard
+        let isLogined = userDefaults.value(forKey: "isLogined") as? Bool
+        
+        if isLogined != nil && isLogined! == true {
+            
+        }else {
+            let loginVC = self.storyboard?.instantiateViewController(withIdentifier: "loginVC")
+            present(loginVC!, animated: true, completion: nil)
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -74,7 +88,7 @@ class Lobby: UIViewController, UICollectionViewDelegate, UICollectionViewDataSou
     }
     }
     @IBAction func AddNewArticle(_ sender: Any) {
-        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "ArticleEdit") {
+        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "AddArticle") {
             vc.title = "New Article"
             self.navigationController?.pushViewController(vc, animated: true)
         }

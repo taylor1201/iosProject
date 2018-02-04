@@ -8,7 +8,7 @@
 
 import UIKit
 
-class myArticle: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class MyArticle: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     var article:[(articleTitle:String, articlesubtitle:String)] = [("Hello", "HI")]
     
@@ -29,30 +29,30 @@ class myArticle: UIViewController, UICollectionViewDataSource, UICollectionViewD
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let vc = self.storyboard?.instantiateViewController(withIdentifier: "ArticlePage") {
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
     @IBAction func AddNewArticle(_ sender: Any) {
-        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "ArticleEdit") {
+        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "AddArticle") {
             vc.title = "New Article"
             self.navigationController?.pushViewController(vc, animated: true)
         }

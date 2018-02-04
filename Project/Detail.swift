@@ -1,5 +1,5 @@
 //
-//  AddArticle.swift
+//  Detail.swift
 //  Project
 //
 //  Created by student on 2018/2/4.
@@ -8,14 +8,30 @@
 
 import UIKit
 
-class AddArticle: UIViewController, UITextFieldDelegate {
-
+class Detail: UIViewController {
+    
+    var emailCA:String?
+    
+    @IBOutlet weak var email: UILabel!
+    @IBOutlet weak var password: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        email.text = "Email: \(emailCA!)"
 
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func disappear(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    
+//    override func viewDidAppear(_ animated: Bool) {
+//        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "createVE") {
+//            vc.title = "New Article"C.text = email
+//        }
+//    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
