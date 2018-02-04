@@ -13,14 +13,13 @@ class Detail: UIViewController {
     var emailCA:String?
     
     @IBOutlet weak var email: UILabel!
-    @IBOutlet weak var password: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         email.text = "Email: \(emailCA!)"
-
         // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func disappear(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }

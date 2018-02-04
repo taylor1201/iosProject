@@ -9,11 +9,20 @@
 import UIKit
 import Firebase
 
-class CreateAccount: UIViewController {
+class CreateAccount: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var errorMassage: UILabel!
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        email.resignFirstResponder()
+        password.resignFirstResponder()
+        return true
+    }
     
     @IBAction func createAction(_ sender: Any){
         if email.text == ""{
@@ -62,7 +71,7 @@ class CreateAccount: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        title = "New Account"
         // Do any additional setup after loading the view.
     }
     

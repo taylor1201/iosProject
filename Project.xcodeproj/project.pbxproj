@@ -23,8 +23,8 @@
 		3FE0AED62026CE5900DF5C36 /* MyArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AED52026CE5900DF5C36 /* MyArticle.swift */; };
 		3FE0AED82026CF1300DF5C36 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AED72026CF1300DF5C36 /* CreateAccount.swift */; };
 		3FE0AEDC2026D1E200DF5C36 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AEDB2026D1E200DF5C36 /* Article.swift */; };
-		3FE0AEDE2026D23600DF5C36 /* AddArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AEDD2026D23600DF5C36 /* AddArticle.swift */; };
 		3FE0AEE02026EC5100DF5C36 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AEDF2026EC5100DF5C36 /* Detail.swift */; };
+		3FE0AEE42027388100DF5C36 /* NewArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AEE32027388100DF5C36 /* NewArticle.swift */; };
 		62242D88976501FF370971B9 /* Pods_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77F1E62A5D554D59266A51B /* Pods_ProjectUITests.framework */; };
 		E76B0CAA01574FA46EAB709D /* Pods_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55DC51A982C27ECCDE1BC73 /* Pods_Project.framework */; };
 /* End PBXBuildFile section */
@@ -62,8 +62,8 @@
 		3FE0AED52026CE5900DF5C36 /* MyArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArticle.swift; sourceTree = "<group>"; };
 		3FE0AED72026CF1300DF5C36 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 		3FE0AEDB2026D1E200DF5C36 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		3FE0AEDD2026D23600DF5C36 /* AddArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArticle.swift; sourceTree = "<group>"; };
 		3FE0AEDF2026EC5100DF5C36 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		3FE0AEE32027388100DF5C36 /* NewArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArticle.swift; sourceTree = "<group>"; };
 		46BF8986D59CC876B0F20F1F /* Pods-ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectUITests/Pods-ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8B210D4E72A2F54BDD2EBFAF /* Pods-ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectUITests/Pods-ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B55DC51A982C27ECCDE1BC73 /* Pods_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,8 +129,8 @@
 				3FE0AED72026CF1300DF5C36 /* CreateAccount.swift */,
 				3FE0AEC72025B28300DF5C36 /* Login.swift */,
 				3FE0AECF2026C2F700DF5C36 /* Reset.swift */,
-				3FE0AEDD2026D23600DF5C36 /* AddArticle.swift */,
 				3FE0AEDF2026EC5100DF5C36 /* Detail.swift */,
+				3FE0AEE32027388100DF5C36 /* NewArticle.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -382,7 +382,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE0AEDE2026D23600DF5C36 /* AddArticle.swift in Sources */,
 				3FE0AED02026C2F700DF5C36 /* Reset.swift in Sources */,
 				3FE0AED62026CE5900DF5C36 /* MyArticle.swift in Sources */,
 				3FE0AEC82025B28300DF5C36 /* Login.swift in Sources */,
@@ -395,6 +394,7 @@
 				3FE0AEB620255A9B00DF5C36 /* ArticleCell.swift in Sources */,
 				3FE0AE8D2022FC7C00DF5C36 /* AppDelegate.swift in Sources */,
 				3FE0AEE02026EC5100DF5C36 /* Detail.swift in Sources */,
+				3FE0AEE42027388100DF5C36 /* NewArticle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

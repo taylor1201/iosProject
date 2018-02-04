@@ -9,9 +9,17 @@
 import UIKit
 import Firebase
 
-class Reset: UIViewController {
+class Reset: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var emailText: UITextField!
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        emailText.resignFirstResponder()
+        return true
+    }
     
     @IBAction func sendReset(_ sender: Any) {
         if self.emailText.text == "" {

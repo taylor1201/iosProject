@@ -88,7 +88,7 @@ class Lobby: UIViewController, UICollectionViewDelegate, UICollectionViewDataSou
     }
     }
     @IBAction func AddNewArticle(_ sender: Any) {
-        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "AddArticle") {
+        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "NewArticle") {
             vc.title = "New Article"
             self.navigationController?.pushViewController(vc, animated: true)
         }

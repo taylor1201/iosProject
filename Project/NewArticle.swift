@@ -1,5 +1,5 @@
 //
-//  AddArticle.swift
+//  NewArticle.swift
 //  Project
 //
 //  Created by student on 2018/2/4.
@@ -8,8 +8,20 @@
 
 import UIKit
 
-class AddArticle: UIViewController, UITextFieldDelegate {
+class NewArticle: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var addTitle: UITextField!
+    @IBOutlet weak var addSubtitle: UITextField!
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        addTitle.resignFirstResponder()
+        addSubtitle.resignFirstResponder()
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
