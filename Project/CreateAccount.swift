@@ -42,7 +42,6 @@ class CreateAccount: UIViewController, UITextFieldDelegate {
             if r == passOK {
                 Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (uesr, error) in
                     if error == nil {
-                        
                         let alertController = UIAlertController(title: "Success", message: "You have successfully create an account.", preferredStyle: .alert)
                         let userDefaults = UserDefaults.standard
                         userDefaults.set(true, forKey: "isLogined")
