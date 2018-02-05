@@ -77,6 +77,12 @@ class CreateAccount: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func detail(_ sender: Any) {
+        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "Detail") {
+            vc.title = ""
+            self.present(vc, animated: true)
+        }
+    }
     
     /*
      // MARK: - Navigation

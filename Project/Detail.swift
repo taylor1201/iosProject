@@ -60,8 +60,6 @@ class Detail: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     @IBOutlet weak var gender: UITextField!
     @IBOutlet weak var age: UITextField!
     @IBOutlet weak var education: UITextField!
-        
-    @IBOutlet weak var email: UILabel!
 
     override func viewDidLoad() {
         
@@ -69,9 +67,7 @@ class Detail: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         
         navigationController?.navigationBar.shadowImage = UIImage()
         
-//        view.backgroundColor = CGFloat(red: 0.1, green: 0.1, blue: 0.1, alpha = 1.0)
         super.viewDidLoad()
-        email.text = "Email: \(emailCA!)"
         
         let pickGender = UIPickerView()
         let pickAge = UIPickerView()
@@ -103,19 +99,19 @@ class Detail: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     lazy var ref = Database.database().reference()
     
     @IBAction func disappear(_ sender: Any) {
-        let emailName:String = emailCA.components(separatedBy: "@")[0]
-        let emailTpye:String = emailCA.components(separatedBy: "@")[1].components(separatedBy: ".")[0]
-        if gender.text == "" {
-            gender.text = "Are you a UMA ???"
-        }
-        if age.text == "" {
-            age.text = "你失憶忘記自己的年齡了嗎 ???"
-        }
-        if education.text == "" {
-            education.text = "剛進幼稚園 ???"
-        }
-        let useProfile:[String] = [emailTpye, gender.text!, age.text!, education.text!]
-        self.ref.childByAutoId().setValue([emailName: useProfile])
+//        let emailName:String = emailCA.components(separatedBy: "@")[0]
+//        let emailTpye:String = emailCA.components(separatedBy: "@")[1].components(separatedBy: ".")[0]
+//        if gender.text == "" {
+//            gender.text = "Are you a UMA ???"
+//        }
+//        if age.text == "" {
+//            age.text = "你失憶忘記自己的年齡了嗎 ???"
+//        }
+//        if education.text == "" {
+//            education.text = "剛進幼稚園 ???"
+//        }
+//        let useProfile:[String] = [emailTpye, gender.text!, age.text!, education.text!]
+//        self.ref.childByAutoId().setValue([emailName: useProfile])
 //        self.ref.setValue([emailName: useProfile])
         self.dismiss(animated: true, completion: nil)
     }
