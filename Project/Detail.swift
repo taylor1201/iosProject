@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import Firebase
 
 class Detail: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    let profile:[[String]] = [["Female", "Male"], ["<20", "20~40", "40~60", ">60"], ["Primary School", "High School", "Bachelor", "Master", "Doctor"]]
+    let profile:[[String]] = [["Female", "Male", "No comment"], ["<18", "18~25", "26~30", "31~35", "36~40", ">40"], ["學生", "管理財經", "行銷業務", "客服支援", "製造工程", "教育傳播", "其他"]]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -54,7 +55,7 @@ class Detail: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         }
     }
     
-    var emailCA:String?
+    var emailCA:String!
     
     @IBOutlet weak var gender: UITextField!
     @IBOutlet weak var age: UITextField!
@@ -89,7 +90,22 @@ class Detail: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         self.view.endEditing(true)
     }
     
+    lazy var ref = Database.database().reference()
+    
     @IBAction func disappear(_ sender: Any) {
+        let emailName:String = emailCA.components(separatedBy: "@")[0]
+        let emailTpye:String = emailCA.components(separatedBy: "@")[1].components(separatedBy: ".")[0]
+        if gender.text == "" {
+            gender.text = "Are you a UMA ???"
+        }
+        if age.text == "" {
+            age.text = "你失憶忘記自己的年齡了嗎 ???"
+        }
+        if education.text == "" {
+            education.text = "剛進幼稚園 ???"
+        }
+        let useProfile:[String] = [emailTpye, gender.text!, age.text!, education.text!]
+        self.ref.child(emailName).setValue(["UserProfile": useProfile])
         self.dismiss(animated: true, completion: nil)
     }
     

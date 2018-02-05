@@ -277,7 +277,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save Personal Profile"/>
                                 <connections>
-                                    <segue destination="XdY-b4-IPQ" kind="unwind" unwindAction="cancelWithSegue:" id="hvw-8s-Jbx"/>
+                                    <action selector="disappear:" destination="Kh0-4z-Ug3" eventType="touchUpInside" id="XPi-eM-BME"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Almost Finish Account Create" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOR-qo-caC">
@@ -351,7 +351,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2U-hU-flG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="XdY-b4-IPQ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="836" y="2386.9565217391305"/>
         </scene>
@@ -739,6 +738,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORt-AW-OKd">
+                                <rect key="frame" x="16" y="85" width="343" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="W65-bt-tNV"/>
@@ -760,13 +766,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="label" destination="kc8-qi-e0I" id="96j-Fi-6xl"/>
+                        <outlet property="emailLabel" destination="ORt-AW-OKd" id="h0s-0K-vUy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dse-oh-OB7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="oht-Yf-Il4" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1524" y="1630"/>
+            <point key="canvasLocation" x="1524" y="1629.5352323838083"/>
         </scene>
     </scenes>
 </document>

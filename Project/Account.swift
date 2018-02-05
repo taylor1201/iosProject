@@ -11,6 +11,8 @@ import Firebase
 
 class Account: UIViewController {
     
+    @IBOutlet weak var emailLabel: UILabel!
+    
     @IBAction func logout(_ sender: Any) {
         if Auth.auth().currentUser != nil {
             do {
@@ -33,6 +35,7 @@ class Account: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        emailLabel.text = Auth.auth().currentUser?.email
         // Do any additional setup after loading the view.
     }
     
