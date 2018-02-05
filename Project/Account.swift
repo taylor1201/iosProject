@@ -11,7 +11,16 @@ import Firebase
 
 class Account: UIViewController {
     
+    let profile:[[String]] = [["Male", "<18", "學生"], ["Female", "31~35", "其他"], ["Female", "36~40", "客服支援"], ["No comment", "18~25", "其他"]]
+    
+    lazy var ref = Database.database().reference()
+    
     @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var gender: UILabel!
+    @IBOutlet weak var age: UILabel!
+    @IBOutlet weak var education: UILabel!
+    
+    var i:Int = Int(arc4random_uniform(4))
     
     @IBAction func logout(_ sender: Any) {
         if Auth.auth().currentUser != nil {
@@ -35,9 +44,13 @@ class Account: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        emailLabel.text = Auth.auth().currentUser?.email
-        // Do any additional setup after loading the view.
+        let email:String = (Auth.auth().currentUser?.email)!
+        emailLabel.text = email
+        gender.text = "性別 \(profile[i][0])"
+        age.text = "年齡 \(profile[i][1])"
+        education.text = "職業 \(profile[i][2])"
     }
+        // Do any additional setup after loading the view.
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

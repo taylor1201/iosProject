@@ -43,15 +43,11 @@ class CreateAccount: UIViewController, UITextFieldDelegate {
                 Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (uesr, error) in
                     if error == nil {
                         let alertController = UIAlertController(title: "Success", message: "You have successfully create an account.", preferredStyle: .alert)
-                        let userDefaults = UserDefaults.standard
-                        userDefaults.set(true, forKey: "isLogined")
-                        userDefaults.synchronize()
                         let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: { (UIAlertAction) in
                             if let vc = self.storyboard?.instantiateViewController(withIdentifier: "Detail") as? Detail {
                                 vc.emailCA = self.email.text
-                                vc.title = "Personal information"
-                                self.present(vc, animated: true, completion: nil)
-                            }
+                                vc.title = "Detial"
+                                self.navigationController?.pushViewController(vc, animated: true)                            }
                         })
                         alertController.addAction(defaultAction)
                         self.present(alertController, animated: true, completion:  nil)
@@ -70,7 +66,6 @@ class CreateAccount: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "New Account"
         // Do any additional setup after loading the view.
     }
     

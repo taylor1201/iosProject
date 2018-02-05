@@ -78,12 +78,16 @@ class Detail: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         pickGender.tag = 0
         pickAge.tag = 1
         pickEducation.tag = 2
-        
+                
         gender.inputView = pickGender
         age.inputView = pickAge
         education.inputView = pickEducation
         
         // Do any additional setup after loading the view.
+    }
+    
+    func test() {
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -105,7 +109,8 @@ class Detail: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
             education.text = "剛進幼稚園 ???"
         }
         let useProfile:[String] = [emailTpye, gender.text!, age.text!, education.text!]
-        self.ref.child(emailName).setValue(["UserProfile": useProfile])
+        self.ref.childByAutoId().setValue([emailName: useProfile])
+//        self.ref.setValue([emailName: useProfile])
         self.dismiss(animated: true, completion: nil)
     }
     
