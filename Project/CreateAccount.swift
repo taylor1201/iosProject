@@ -66,6 +66,9 @@ class CreateAccount: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        
+        navigationController?.navigationBar.shadowImage = UIImage()
         // Do any additional setup after loading the view.
     }
     

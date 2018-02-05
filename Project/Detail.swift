@@ -64,6 +64,12 @@ class Detail: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     @IBOutlet weak var email: UILabel!
 
     override func viewDidLoad() {
+        
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        
+        navigationController?.navigationBar.shadowImage = UIImage()
+        
+//        view.backgroundColor = CGFloat(red: 0.1, green: 0.1, blue: 0.1, alpha = 1.0)
         super.viewDidLoad()
         email.text = "Email: \(emailCA!)"
         

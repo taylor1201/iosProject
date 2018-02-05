@@ -49,6 +49,9 @@ class Account: UIViewController {
         gender.text = "性別 \(profile[i][0])"
         age.text = "年齡 \(profile[i][1])"
         education.text = "職業 \(profile[i][2])"
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        
+        navigationController?.navigationBar.shadowImage = UIImage()
     }
         // Do any additional setup after loading the view.
     

@@ -15,11 +15,14 @@ class Lobby: UIViewController, UICollectionViewDelegate, UICollectionViewDataSou
     
     @IBOutlet weak var select1: UICollectionView!
     @IBOutlet weak var select2: UICollectionView!
+    @IBOutlet weak var select3: UICollectionView!
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == select1 {
             return article.count
         } else if collectionView == select2 {
+            return articlew.count
+        } else if collectionView == select3 {
             return articlew.count
         } else {
             return 0
@@ -48,7 +51,9 @@ class Lobby: UIViewController, UICollectionViewDelegate, UICollectionViewDataSou
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         
+        navigationController?.navigationBar.shadowImage = UIImage()
         // Do any additional setup after loading the view.
     }
 
