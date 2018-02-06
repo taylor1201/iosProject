@@ -10,8 +10,8 @@ import UIKit
 
 class Lobby: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    var article:[(articleTitle:String, articlesubtitle:String)] = [("Hello", "HI"), ("test", "font"), ("test", "font"), ("test", "font")]
-    var articlew:[(articleTitle:String, articlesubtitle:String)] = [("Hello", "HI"), ("test", "font"), ("test", "font")]
+    var article:[(articleTitle:String, articlesubtitle:String)] = [("App滿意調查", "本工作室為持續提供更好的服務，特製作本問卷，以瞭解您對本工作室服務品質、服務態度與業務電腦化的看法與建議，請您依實際經驗與個人認知，回答下列所有的問題，感謝您撥冗填寫，謝謝您！"), ("冷飲喜好調查", "徵求熱愛冷飲的朋友參與本次問卷調查！！"), ("未來就業期望調查", "希望了解學生對於未來就業的展望"), ("購物習慣調查", "請要了解各年齡層購物習慣")]
+    var articlew:[(articleTitle:String, articlesubtitle:String)] = [("高血壓與心血管疾病調查", "為進行高血壓與心血管疾病相關論文研究,請大家多多幫忙,謝謝！"), ("平日讀書時間調查", "大家都花多少時間在讀書呢？熱烈徵求大家的回饋"), ("北車附近美食熱點調查", "純粹想知道北車有什麼好吃的店QQ")]
     
     @IBOutlet weak var select1: UICollectionView!
     @IBOutlet weak var select2: UICollectionView!

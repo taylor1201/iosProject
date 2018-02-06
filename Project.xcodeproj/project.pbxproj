@@ -26,6 +26,33 @@
 		3FE0AEE02026EC5100DF5C36 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AEDF2026EC5100DF5C36 /* Detail.swift */; };
 		3FE0AEE42027388100DF5C36 /* NewArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AEE32027388100DF5C36 /* NewArticle.swift */; };
 		62242D88976501FF370971B9 /* Pods_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77F1E62A5D554D59266A51B /* Pods_ProjectUITests.framework */; };
+		DF29173B20298BB900CB1869 /* chatRoom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29173920298BB600CB1869 /* chatRoom@3x.png */; };
+		DF29173C20298BB900CB1869 /* lottery@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29173A20298BB700CB1869 /* lottery@3x.png */; };
+		DF29174020298BFC00CB1869 /* mine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29173D20298BF800CB1869 /* mine@3x.png */; };
+		DF29174120298BFC00CB1869 /* diman@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29173E20298BF900CB1869 /* diman@3x.png */; };
+		DF29174220298BFC00CB1869 /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29173F20298BFA00CB1869 /* folder@2x.png */; };
+		DF2917442029920700CB1869 /* pet@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917432029920600CB1869 /* pet@3x.png */; };
+		DF29174A2029954500CB1869 /* drawBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917472029954300CB1869 /* drawBtn@3x.png */; };
+		DF29174D2029A5F700CB1869 /* island@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29174B2029A5F300CB1869 /* island@3x.png */; };
+		DF29174E2029A5F700CB1869 /* submit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29174C2029A5F600CB1869 /* submit@3x.png */; };
+		DF2917502029A82F00CB1869 /* machine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29174F2029A82C00CB1869 /* machine@3x.png */; };
+		DF2917522029A9AC00CB1869 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917512029A9A900CB1869 /* search@3x.png */; };
+		DF2917542029AA6700CB1869 /* filter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917532029AA6500CB1869 /* filter@3x.png */; };
+		DF2917582029BDE700CB1869 /* reg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917572029BDE400CB1869 /* reg2@2x.png */; };
+		DF29175B2029CB7500CB1869 /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917592029CB7000CB1869 /* delete@3x.png */; };
+		DF29175C2029CB7500CB1869 /* copy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29175A2029CB7300CB1869 /* copy@3x.png */; };
+		DF29175E2029CD8900CB1869 /* addDetail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29175D2029CD8600CB1869 /* addDetail@3x.png */; };
+		DF2917602029D3E000CB1869 /* addPhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29175F2029D3DD00CB1869 /* addPhoto@3x.png */; };
+		DF2917622029D48200CB1869 /* AddQuestionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2917612029D48200CB1869 /* AddQuestionnaire.swift */; };
+		DF2917642029D65B00CB1869 /* PreQuestionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2917632029D65B00CB1869 /* PreQuestionnaire.swift */; };
+		DF29176D2029D72600CB1869 /* ٩๑۶@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917652029D71000CB1869 /* ٩๑۶@3x.png */; };
+		DF29176E2029D72600CB1869 /* checkUpExcel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917662029D71400CB1869 /* checkUpExcel@3x.png */; };
+		DF29176F2029D72600CB1869 /* invalidName_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917672029D71700CB1869 /* invalidName_2@3x.png */; };
+		DF2917702029D72600CB1869 /* invalidName@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917682029D71B00CB1869 /* invalidName@3x.png */; };
+		DF2917712029D72600CB1869 /* petNoFace@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2917692029D71F00CB1869 /* petNoFace@3x.png */; };
+		DF2917722029D72600CB1869 /* ๑๑@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29176A2029D72500CB1869 /* ๑๑@3x.png */; };
+		DF2917732029D72600CB1869 /* backToMySurvey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29176B2029D72500CB1869 /* backToMySurvey@3x.png */; };
+		DF2917742029D72600CB1869 /* ๑@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29176C2029D72600CB1869 /* ๑@3x.png */; };
 		E76B0CAA01574FA46EAB709D /* Pods_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55DC51A982C27ECCDE1BC73 /* Pods_Project.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +95,33 @@
 		8B210D4E72A2F54BDD2EBFAF /* Pods-ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectUITests/Pods-ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B55DC51A982C27ECCDE1BC73 /* Pods_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77F1E62A5D554D59266A51B /* Pods_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF29173920298BB600CB1869 /* chatRoom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatRoom@3x.png"; path = "../../../Downloads/assets_2-0個人資料_2018-02-06/chatRoom@3x.png"; sourceTree = "<group>"; };
+		DF29173A20298BB700CB1869 /* lottery@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lottery@3x.png"; path = "../../../Downloads/assets_2-0個人資料_2018-02-06/lottery@3x.png"; sourceTree = "<group>"; };
+		DF29173D20298BF800CB1869 /* mine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mine@3x.png"; path = "../../../Downloads/assets_2-0個人資料_2018-02-06/mine@3x.png"; sourceTree = "<group>"; };
+		DF29173E20298BF900CB1869 /* diman@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "diman@3x.png"; path = "../../../Downloads/assets_2-0個人資料_2018-02-06/diman@3x.png"; sourceTree = "<group>"; };
+		DF29173F20298BFA00CB1869 /* folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "folder@2x.png"; path = "../../../Downloads/assets_2-0個人資料_2018-02-06/folder@2x.png"; sourceTree = "<group>"; };
+		DF2917432029920600CB1869 /* pet@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pet@3x.png"; path = "../../../Downloads/pet_2018-02-06/pet@3x.png"; sourceTree = "<group>"; };
+		DF2917472029954300CB1869 /* drawBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "drawBtn@3x.png"; path = "../../../Downloads/assets_2-0-1抽獎_2018-02-06/drawBtn@3x.png"; sourceTree = "<group>"; };
+		DF29174B2029A5F300CB1869 /* island@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "island@3x.png"; path = "../../../Downloads/assets_2-0-2聊天室_2018-02-06/island@3x.png"; sourceTree = "<group>"; };
+		DF29174C2029A5F600CB1869 /* submit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "submit@3x.png"; path = "../../../Downloads/assets_2-0-2聊天室_2018-02-06/submit@3x.png"; sourceTree = "<group>"; };
+		DF29174F2029A82C00CB1869 /* machine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "machine@3x.png"; path = "../../../Downloads/assets_2-0-1抽獎_2018-02-06/machine@3x.png"; sourceTree = "<group>"; };
+		DF2917512029A9A900CB1869 /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search@3x.png"; path = "../../../Downloads/assets_1-0問卷精選_2018-02-06/search@3x.png"; sourceTree = "<group>"; };
+		DF2917532029AA6500CB1869 /* filter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "filter@3x.png"; path = "../../../Downloads/assets_1-0問卷精選_2018-02-06/filter@3x.png"; sourceTree = "<group>"; };
+		DF2917572029BDE400CB1869 /* reg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reg2@2x.png"; path = "../../../Downloads/reg2@2x.png"; sourceTree = "<group>"; };
+		DF2917592029CB7000CB1869 /* delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@3x.png"; path = "../../../Downloads/assets_3-0-1刪除問卷_2018-02-06/delete@3x.png"; sourceTree = "<group>"; };
+		DF29175A2029CB7300CB1869 /* copy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "copy@3x.png"; path = "../../../Downloads/assets_3-0-1刪除問卷_2018-02-06/copy@3x.png"; sourceTree = "<group>"; };
+		DF29175D2029CD8600CB1869 /* addDetail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addDetail@3x.png"; path = "../../../Downloads/addDetail_2018-02-06/addDetail@3x.png"; sourceTree = "<group>"; };
+		DF29175F2029D3DD00CB1869 /* addPhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addPhoto@3x.png"; path = "../../../Downloads/addPhoto_2018-02-06/addPhoto@3x.png"; sourceTree = "<group>"; };
+		DF2917612029D48200CB1869 /* AddQuestionnaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionnaire.swift; sourceTree = "<group>"; };
+		DF2917632029D65B00CB1869 /* PreQuestionnaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreQuestionnaire.swift; sourceTree = "<group>"; };
+		DF2917652029D71000CB1869 /* ٩๑۶@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "٩๑۶@3x.png"; path = "../../../Downloads/assets_3-4發佈問卷完成_2018-02-06/٩๑۶@3x.png"; sourceTree = "<group>"; };
+		DF2917662029D71400CB1869 /* checkUpExcel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkUpExcel@3x.png"; path = "../../../Downloads/assets_3-4發佈問卷完成_2018-02-06/checkUpExcel@3x.png"; sourceTree = "<group>"; };
+		DF2917672029D71700CB1869 /* invalidName_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "invalidName_2@3x.png"; path = "../../../Downloads/assets_3-4發佈問卷完成_2018-02-06/invalidName_2@3x.png"; sourceTree = "<group>"; };
+		DF2917682029D71B00CB1869 /* invalidName@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "invalidName@3x.png"; path = "../../../Downloads/assets_3-4發佈問卷完成_2018-02-06/invalidName@3x.png"; sourceTree = "<group>"; };
+		DF2917692029D71F00CB1869 /* petNoFace@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "petNoFace@3x.png"; path = "../../../Downloads/assets_3-4發佈問卷完成_2018-02-06/petNoFace@3x.png"; sourceTree = "<group>"; };
+		DF29176A2029D72500CB1869 /* ๑๑@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "๑๑@3x.png"; path = "../../../Downloads/assets_3-4發佈問卷完成_2018-02-06/๑๑@3x.png"; sourceTree = "<group>"; };
+		DF29176B2029D72500CB1869 /* backToMySurvey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backToMySurvey@3x.png"; path = "../../../Downloads/assets_3-4發佈問卷完成_2018-02-06/backToMySurvey@3x.png"; sourceTree = "<group>"; };
+		DF29176C2029D72600CB1869 /* ๑@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "๑@3x.png"; path = "../../../Downloads/assets_3-4發佈問卷完成_2018-02-06/๑@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +167,32 @@
 		3FE0AE8B2022FC7C00DF5C36 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				DF29176C2029D72600CB1869 /* ๑@3x.png */,
+				DF29176A2029D72500CB1869 /* ๑๑@3x.png */,
+				DF2917652029D71000CB1869 /* ٩๑۶@3x.png */,
+				DF29176B2029D72500CB1869 /* backToMySurvey@3x.png */,
+				DF2917662029D71400CB1869 /* checkUpExcel@3x.png */,
+				DF2917672029D71700CB1869 /* invalidName_2@3x.png */,
+				DF2917682029D71B00CB1869 /* invalidName@3x.png */,
+				DF2917692029D71F00CB1869 /* petNoFace@3x.png */,
+				DF29175F2029D3DD00CB1869 /* addPhoto@3x.png */,
+				DF29175D2029CD8600CB1869 /* addDetail@3x.png */,
+				DF29175A2029CB7300CB1869 /* copy@3x.png */,
+				DF2917592029CB7000CB1869 /* delete@3x.png */,
+				DF2917572029BDE400CB1869 /* reg2@2x.png */,
+				DF2917532029AA6500CB1869 /* filter@3x.png */,
+				DF2917512029A9A900CB1869 /* search@3x.png */,
+				DF29174F2029A82C00CB1869 /* machine@3x.png */,
+				DF29174B2029A5F300CB1869 /* island@3x.png */,
+				DF29174C2029A5F600CB1869 /* submit@3x.png */,
+				DF2917472029954300CB1869 /* drawBtn@3x.png */,
+				DF29173E20298BF900CB1869 /* diman@3x.png */,
+				DF29173F20298BFA00CB1869 /* folder@2x.png */,
+				DF29173D20298BF800CB1869 /* mine@3x.png */,
+				DF29173920298BB600CB1869 /* chatRoom@3x.png */,
+				DF29173A20298BB700CB1869 /* lottery@3x.png */,
+				DF2917432029920600CB1869 /* pet@3x.png */,
+				DF2917632029D65B00CB1869 /* PreQuestionnaire.swift */,
 				3FE0AE8C2022FC7C00DF5C36 /* AppDelegate.swift */,
 				3FE0AE8E2022FC7C00DF5C36 /* ViewController.swift */,
 				3FE0AE902022FC7C00DF5C36 /* Main.storyboard */,
@@ -131,6 +211,7 @@
 				3FE0AEDF2026EC5100DF5C36 /* Detail.swift */,
 				3FE0AEE32027388100DF5C36 /* NewArticle.swift */,
 				3FB7FBDB20276DAD004342B3 /* Account.swift */,
+				DF2917612029D48200CB1869 /* AddQuestionnaire.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -253,10 +334,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF29175C2029CB7500CB1869 /* copy@3x.png in Resources */,
+				DF29173C20298BB900CB1869 /* lottery@3x.png in Resources */,
+				DF2917542029AA6700CB1869 /* filter@3x.png in Resources */,
+				DF29176F2029D72600CB1869 /* invalidName_2@3x.png in Resources */,
+				DF2917582029BDE700CB1869 /* reg2@2x.png in Resources */,
+				DF29176E2029D72600CB1869 /* checkUpExcel@3x.png in Resources */,
+				DF2917702029D72600CB1869 /* invalidName@3x.png in Resources */,
+				DF29176D2029D72600CB1869 /* ٩๑۶@3x.png in Resources */,
+				DF29174E2029A5F700CB1869 /* submit@3x.png in Resources */,
+				DF29174020298BFC00CB1869 /* mine@3x.png in Resources */,
+				DF29175E2029CD8900CB1869 /* addDetail@3x.png in Resources */,
+				DF2917522029A9AC00CB1869 /* search@3x.png in Resources */,
+				DF29174D2029A5F700CB1869 /* island@3x.png in Resources */,
 				3FE0AE9A2022FC7C00DF5C36 /* LaunchScreen.storyboard in Resources */,
+				DF29174120298BFC00CB1869 /* diman@3x.png in Resources */,
+				DF29173B20298BB900CB1869 /* chatRoom@3x.png in Resources */,
+				DF29175B2029CB7500CB1869 /* delete@3x.png in Resources */,
+				DF2917602029D3E000CB1869 /* addPhoto@3x.png in Resources */,
+				DF29174A2029954500CB1869 /* drawBtn@3x.png in Resources */,
+				DF29174220298BFC00CB1869 /* folder@2x.png in Resources */,
+				DF2917722029D72600CB1869 /* ๑๑@3x.png in Resources */,
 				3FE0AEB02022FD5300DF5C36 /* GoogleService-Info.plist in Resources */,
+				DF2917712029D72600CB1869 /* petNoFace@3x.png in Resources */,
+				DF2917732029D72600CB1869 /* backToMySurvey@3x.png in Resources */,
 				3FB7FC0D2028308C004342B3 /* Assets.xcassets in Resources */,
+				DF2917742029D72600CB1869 /* ๑@3x.png in Resources */,
 				3FE0AE922022FC7C00DF5C36 /* Main.storyboard in Resources */,
+				DF2917442029920700CB1869 /* pet@3x.png in Resources */,
+				DF2917502029A82F00CB1869 /* machine@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +491,9 @@
 				3FE0AED02026C2F700DF5C36 /* Reset.swift in Sources */,
 				3FE0AED62026CE5900DF5C36 /* MyArticle.swift in Sources */,
 				3FE0AEC82025B28300DF5C36 /* Login.swift in Sources */,
+				DF2917622029D48200CB1869 /* AddQuestionnaire.swift in Sources */,
 				3FE0AEC02025774600DF5C36 /* Lobby.swift in Sources */,
+				DF2917642029D65B00CB1869 /* PreQuestionnaire.swift in Sources */,
 				3FE0AE8F2022FC7C00DF5C36 /* ViewController.swift in Sources */,
 				3FE0AED82026CF1300DF5C36 /* CreateAccount.swift in Sources */,
 				3FE0AEDC2026D1E200DF5C36 /* Article.swift in Sources */,
