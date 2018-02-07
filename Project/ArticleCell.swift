@@ -13,5 +13,7 @@ class ArticleCell : UICollectionViewCell {
     @IBOutlet weak var mysubtitle: UILabel!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var subtitle: UILabel!
+    @IBOutlet weak var titlen: UILabel!
+    @IBOutlet weak var subtitlen: UILabel!
     
 }
