@@ -850,14 +850,18 @@
         <scene sceneID="LrV-7a-ZEs">
             <objects>
                 <viewController storyboardIdentifier="LobbyView" id="Gjw-Rw-6VH" customClass="Lobby" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gm1-yu-w3E">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="gm1-yu-w3E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="EiS-KZ-lvL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="EiS-KZ-lvL">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="c9j-GT-yF5"/>
+                                    <constraint firstAttribute="height" constant="95" id="tBC-rP-B3P"/>
+                                </constraints>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="W9C-zE-zoG">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="W9C-zE-zoG">
                                 <rect key="frame" x="0.0" y="118" width="375" height="220"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -909,7 +913,7 @@
                                     <outlet property="delegate" destination="Gjw-Rw-6VH" id="1vt-KM-7qY"/>
                                 </connections>
                             </collectionView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7kK-dH-hIG">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7kK-dH-hIG">
                                 <rect key="frame" x="0.0" y="390" width="375" height="220"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -961,13 +965,13 @@
                                     <outlet property="delegate" destination="Gjw-Rw-6VH" id="sIK-cc-JBH"/>
                                 </connections>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="符合條件" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBd-6c-qYJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="符合條件" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBd-6c-qYJ">
                                 <rect key="frame" x="23" y="346" width="327" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.98741319444444442" green="0.57647058823529407" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每日精選" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Y-A9-iF6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="每日精選" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Y-A9-iF6">
                                 <rect key="frame" x="15" y="74" width="327" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.8666666666666667" green="0.57647058823529407" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -999,16 +1003,19 @@
                     <navigationItem key="navigationItem" id="aXl-Ga-X9J">
                         <barButtonItem key="leftBarButtonItem" image="filter.png" style="plain" id="PuD-5W-8bA">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IG0-1I-HZB">
-                                <rect key="frame" x="16" y="7" width="84" height="30"/>
+                                <rect key="frame" x="16" y="4" width="41" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Filter" image="filter"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="編輯"/>
                             </button>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="McG-tk-uig">
+                            <inset key="imageInsets" minX="-26" minY="30" maxX="26" maxY="-30"/>
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wNj-06-oM6">
-                                <rect key="frame" x="272" y="7" width="87" height="30"/>
+                                <rect key="frame" x="329" y="4" width="30" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Search" image="search"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="＋"/>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -1732,7 +1739,6 @@
         <image name="diman" width="40" height="40"/>
         <image name="diman.png" width="40" height="29"/>
         <image name="drawBtn" width="248" height="49"/>
-        <image name="filter" width="30" height="30"/>
         <image name="filter.png" width="30" height="30"/>
         <image name="folder" width="40" height="40"/>
         <image name="folder.png" width="40" height="33"/>
@@ -1749,7 +1755,6 @@
         <image name="pet-1" width="158" height="158"/>
         <image name="petNoFace-1" width="158" height="158"/>
         <image name="reg2" width="375" height="672"/>
-        <image name="search" width="30" height="30"/>
         <image name="signup-in" width="120" height="40"/>
         <image name="sinup" width="120" height="40"/>
         <image name="submit" width="87" height="49"/>
