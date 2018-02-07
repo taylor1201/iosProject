@@ -642,6 +642,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="＋"/>
+                                <connections>
+                                    <action selector="AddNewArticle:" destination="62I-Wc-6hE" eventType="touchUpInside" id="pVZ-U6-mhS"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -1017,6 +1020,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="＋"/>
+                                <connections>
+                                    <action selector="AddNewArticle:" destination="Gjw-Rw-6VH" eventType="touchUpInside" id="5HF-ia-nVc"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
