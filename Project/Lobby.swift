@@ -56,9 +56,18 @@ class Lobby: UIViewController, UICollectionViewDelegate, UICollectionViewDataSou
         navigationController?.navigationBar.shadowImage = UIImage()
         // Do any additional setup after loading the view.
     }
+    
+    var open:Bool = false
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+        if open == false {
+            let openVC = self.storyboard?.instantiateViewController(withIdentifier: "OpenVC")
+            present(openVC!, animated: false, completion: nil)
+            open = true
+        }
+        
         
         let userDefaults = UserDefaults.standard
         let isLogined = userDefaults.value(forKey: "isLogined") as? Bool

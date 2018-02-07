@@ -9,9 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
-    
+    @IBOutlet weak var animate:UIImageView!
+    @IBAction func disappear(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +29,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        
+        animate.animationImages = []
+        for i in 0...360 {
+            let j:String = String(format: "%05d", i)
+            animate.animationImages?.append(UIImage(named: "Comp 2_\(j).png")!)
+        }
+        animate.animationDuration = 15
+        animate.animationRepeatCount = 1
+        animate.startAnimating()
+        animate.image = UIImage(named: "Comp 2_00360.png")
+    }
 
 }
 
