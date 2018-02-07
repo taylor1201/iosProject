@@ -60,7 +60,8 @@ class MyArticle: UIViewController, UICollectionViewDataSource, UICollectionViewD
     }
     @IBAction func AddNewArticle(_ sender: Any) {
         if let vc = self.storyboard?.instantiateViewController(withIdentifier: "NewArticle") {
-            vc.title = "New Article"
+            vc.title = "新增問卷"
+            vc.title.text
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
