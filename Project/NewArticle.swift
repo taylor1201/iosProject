@@ -24,8 +24,11 @@ class NewArticle: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.title = "新增問卷"
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor.white
+        
+//        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
     }
 
     override func didReceiveMemoryWarning() {

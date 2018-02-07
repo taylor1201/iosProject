@@ -643,7 +643,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="＋"/>
                                 <connections>
-                                    <action selector="AddNewArticle:" destination="62I-Wc-6hE" eventType="touchUpInside" id="pVZ-U6-mhS"/>
+                                    <segue destination="yfC-5s-XfK" kind="show" id="R5e-Ux-eN0"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -846,6 +846,9 @@
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
@@ -1021,7 +1024,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="＋"/>
                                 <connections>
-                                    <action selector="AddNewArticle:" destination="Gjw-Rw-6VH" eventType="touchUpInside" id="5HF-ia-nVc"/>
+                                    <segue destination="yfC-5s-XfK" kind="show" id="97s-In-SyQ"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -1044,7 +1047,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7vI-Pu-vuB">
-                                <rect key="frame" x="75" y="103" width="284" height="30"/>
+                                <rect key="frame" x="75" y="147" width="284" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="xiL-DD-Heh"/>
                                 </constraints>
@@ -1056,7 +1059,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IIp-xR-AME">
-                                <rect key="frame" x="16" y="195" width="343" height="90"/>
+                                <rect key="frame" x="16" y="239" width="343" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Qbi-MC-nz7"/>
                                 </constraints>
@@ -1068,19 +1071,19 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="標題" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWE-YO-m2k">
-                                <rect key="frame" x="16" y="103" width="51" height="30"/>
+                                <rect key="frame" x="16" y="147" width="51" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大綱(簡介)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RA-oM-rcy">
-                                <rect key="frame" x="16" y="157" width="343" height="30"/>
+                                <rect key="frame" x="16" y="201" width="343" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="ZP8-hS-35A">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="760"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.45098039220000002" green="0.66274509800000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1768,4 +1771,7 @@
         <image name="٩๑۶" width="116" height="20"/>
         <image name="๑" width="97" height="15"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="R5e-Ux-eN0"/>
+    </inferredMetricsTieBreakers>
 </document>

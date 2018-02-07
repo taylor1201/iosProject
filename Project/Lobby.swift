@@ -92,10 +92,9 @@ class Lobby: UIViewController, UICollectionViewDelegate, UICollectionViewDataSou
     self.navigationController?.pushViewController(vc, animated: true)
     }
     }
-    @IBAction func AddNewArticle(_ sender: Any) {
-        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "NewArticle") {
-            vc.title = "新增問卷"
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
-    }
+//    @IBAction func AddNewArticle(_ sender: Any) {
+//        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "NewArticle") {
+//            self.navigationController?.pushViewController(vc, animated: true)
+//        }
+//    }
 }
