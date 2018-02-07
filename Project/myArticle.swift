@@ -10,7 +10,10 @@ import UIKit
 
 class MyArticle: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    var article:[(articleTitle:String, articlesubtitle:String)] = [("Hello", "HI")]
+    @IBAction func goback(segue: UIStoryboardSegue) {}
+    
+    
+    var article:[(articleTitle:String, articlesubtitle:String)] = [("App滿意調查", "2017/02/03")]
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return article.count
@@ -27,6 +30,10 @@ class MyArticle: UIViewController, UICollectionViewDataSource, UICollectionViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        
+        navigationController?.navigationBar.shadowImage = UIImage()
         // Do any additional setup after loading the view.
     }
     

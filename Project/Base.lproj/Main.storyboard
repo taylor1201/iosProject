@@ -475,7 +475,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="kPX-Gb-hXl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="kPX-Gb-hXl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ToI-FN-7r8">
@@ -489,10 +489,10 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LmC-MV-l4l">
                                 <rect key="frame" x="272" y="516" width="87" height="79"/>
-                                <state key="normal" image="submit.png"/>
+                                <state key="normal" image="submit"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="island.png" translatesAutoresizingMaskIntoConstraints="NO" id="pL4-aj-h3L">
-                                <rect key="frame" x="16" y="94" width="359" height="414"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="island" translatesAutoresizingMaskIntoConstraints="NO" id="pL4-aj-h3L">
+                                <rect key="frame" x="8" y="74" width="359" height="414"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.45098039220000002" green="0.66274509800000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -523,10 +523,11 @@
         <scene sceneID="Al8-QW-bd5">
             <objects>
                 <navigationController id="zzA-Va-1wu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="個人資料" image="mine.png" id="9Wz-lv-2gI"/>
+                    <tabBarItem key="tabBarItem" title="個人資料" image="mine" id="9Wz-lv-2gI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wxa-Ph-4wq">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
@@ -550,7 +551,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mok-I7-tkA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="mok-I7-tkA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lSg-IU-K6a">
@@ -570,7 +571,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="180" height="232"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pet.png" translatesAutoresizingMaskIntoConstraints="NO" id="DSI-to-oAa">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pet-1" translatesAutoresizingMaskIntoConstraints="NO" id="DSI-to-oAa">
                                                     <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -640,15 +641,15 @@
             </objects>
             <point key="canvasLocation" x="1524" y="859.52023988005999"/>
         </scene>
-        <!--View Controller-->
+        <!--Article-->
         <scene sceneID="T0s-Ej-Jfv">
             <objects>
-                <viewController id="cXB-yb-8mp" sceneMemberID="viewController">
+                <viewController id="cXB-yb-8mp" customClass="Article" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZLa-TQ-pfJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="xlf-4Y-RKG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="xlf-4Y-RKG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="U44-J0-qAt">
@@ -669,7 +670,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="180" height="232"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pet.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mis-Yq-wTM">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pet-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mis-Yq-wTM">
                                                     <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -694,7 +695,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="delete.png" translatesAutoresizingMaskIntoConstraints="NO" id="F74-DG-Ygw">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="delete" translatesAutoresizingMaskIntoConstraints="NO" id="F74-DG-Ygw">
                                                     <rect key="frame" x="0.0" y="8" width="67" height="67"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -723,7 +724,7 @@
                                 <rect key="frame" x="264" y="11" width="95" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Add" image="copy.png"/>
+                                <state key="normal" title="Add" image="copy"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.45098039220000002" green="0.66274509800000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -744,7 +745,9 @@
         <scene sceneID="ums-SW-hlc">
             <objects>
                 <navigationController id="9Wc-5X-1FK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="問卷夾" image="folder.png" id="yCP-Qx-C6n"/>
+                    <tabBarItem key="tabBarItem" title="問卷夾" image="folder" id="yCP-Qx-C6n">
+                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c0M-CF-oVw">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -778,7 +781,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="N5C-mO-2Kl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="N5C-mO-2Kl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
@@ -824,7 +827,9 @@
         <scene sceneID="BfE-jm-Bfs">
             <objects>
                 <navigationController id="rT2-T6-eEe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="問卷精選" image="diman.png" id="eFY-y5-SAn"/>
+                    <tabBarItem key="tabBarItem" title="問卷精選" image="diman" id="eFY-y5-SAn">
+                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KQr-4p-C3G">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -844,13 +849,12 @@
         <!--Lobby-->
         <scene sceneID="LrV-7a-ZEs">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wW4-qG-1KI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="LobbyView" id="Gjw-Rw-6VH" customClass="Lobby" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gm1-yu-w3E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="EiS-KZ-lvL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="EiS-KZ-lvL">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="W9C-zE-zoG">
@@ -873,7 +877,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="180" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pet.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fjj-eZ-m2m">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pet-1" translatesAutoresizingMaskIntoConstraints="NO" id="Fjj-eZ-m2m">
                                                     <rect key="frame" x="0.0" y="-1" width="180" height="180"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -925,7 +929,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="179" height="209"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pet.png" translatesAutoresizingMaskIntoConstraints="NO" id="gLS-kP-CHe">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pet-1" translatesAutoresizingMaskIntoConstraints="NO" id="gLS-kP-CHe">
                                                     <rect key="frame" x="0.0" y="0.0" width="179" height="180"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subtitle" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuW-Mx-t0c">
@@ -997,14 +1001,14 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IG0-1I-HZB">
                                 <rect key="frame" x="16" y="7" width="84" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Filter" image="filter.png"/>
+                                <state key="normal" title="Filter" image="filter"/>
                             </button>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="McG-tk-uig">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wNj-06-oM6">
                                 <rect key="frame" x="272" y="7" width="87" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Search" image="search.png"/>
+                                <state key="normal" title="Search" image="search"/>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -1013,6 +1017,7 @@
                         <outlet property="select2" destination="7kK-dH-hIG" id="NSe-Dk-DbH"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wW4-qG-1KI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1524" y="107.49625187406298"/>
         </scene>
@@ -1060,7 +1065,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZP8-hS-35A">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="ZP8-hS-35A">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
@@ -1103,10 +1108,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="unA-zu-FZb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="unA-zu-FZb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="machine.png" translatesAutoresizingMaskIntoConstraints="NO" id="JzQ-wb-x7P">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="machine" translatesAutoresizingMaskIntoConstraints="NO" id="JzQ-wb-x7P">
                                 <rect key="frame" x="47" y="137" width="280" height="309"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="JzQ-wb-x7P" secondAttribute="height" multiplier="280:309" id="3hG-uv-Sil"/>
@@ -1114,7 +1119,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMR-zV-JBQ">
                                 <rect key="frame" x="43" y="504" width="288" height="49"/>
-                                <state key="normal" image="drawBtn.png"/>
+                                <state key="normal" image="drawBtn"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.45098039220000002" green="0.66274509800000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1149,7 +1154,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="NZE-9X-iqq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="NZE-9X-iqq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRi-rh-KbD">
@@ -1249,7 +1254,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RsF-XV-5P8">
                                 <rect key="frame" x="176" y="584" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="addDetail.png"/>
+                                <state key="normal" image="addDetail"/>
                                 <connections>
                                     <segue destination="ngC-UD-b8h" kind="show" id="4kL-e0-eP9"/>
                                 </connections>
@@ -1306,10 +1311,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="aB1-uc-eUm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="aB1-uc-eUm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pet.png" translatesAutoresizingMaskIntoConstraints="NO" id="tAF-hk-Mgw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pet-1" translatesAutoresizingMaskIntoConstraints="NO" id="tAF-hk-Mgw">
                                 <rect key="frame" x="24" y="136" width="121" height="127"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tAF-hk-Mgw" secondAttribute="height" multiplier="121:127" id="vva-JO-qWz"/>
@@ -1344,7 +1349,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXS-yL-hzv">
                                 <rect key="frame" x="24" y="282" width="326" height="149"/>
-                                <state key="normal" image="chatRoom.png"/>
+                                <state key="normal" image="chatRoom"/>
                                 <connections>
                                     <action selector="goChatroom:" destination="1cn-Rh-fuS" eventType="touchUpInside" id="vVM-51-cdG"/>
                                     <segue destination="1qf-T8-UDC" kind="show" id="yig-fg-1hF"/>
@@ -1352,7 +1357,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-tj-mCp">
                                 <rect key="frame" x="26" y="439" width="323" height="149"/>
-                                <state key="normal" image="lottery.png"/>
+                                <state key="normal" image="lottery"/>
                                 <connections>
                                     <action selector="goLotty:" destination="1cn-Rh-fuS" eventType="touchUpInside" id="qE2-rD-fnI"/>
                                     <segue destination="x1X-te-KQh" kind="show" id="2Ly-Jl-Gn8"/>
@@ -1434,7 +1439,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="tWy-Pu-beR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="tWy-Pu-beR">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="對於Survey Pet的介面滿意度？" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oR-aS-a9b">
@@ -1504,7 +1509,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J77-PR-EhI">
                                 <rect key="frame" x="208" y="457" width="136" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title=" add photo" image="addPhoto.png">
+                                <state key="normal" title=" add photo" image="addPhoto">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -1535,7 +1540,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="NLh-xu-4s6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="NLh-xu-4s6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="App滿意調查" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aF7-tE-efR">
@@ -1654,7 +1659,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="L46-Kb-sEI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="L46-Kb-sEI">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="恭喜發佈成功" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhS-G5-xQ0">
@@ -1671,28 +1676,28 @@
                                 <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="٩๑۶.png" translatesAutoresizingMaskIntoConstraints="NO" id="LSp-Zv-vN1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="٩๑۶" translatesAutoresizingMaskIntoConstraints="NO" id="LSp-Zv-vN1">
                                 <rect key="frame" x="129" y="282" width="116" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="petNoFace.png" translatesAutoresizingMaskIntoConstraints="NO" id="g6D-Ra-XcR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="petNoFace-1" translatesAutoresizingMaskIntoConstraints="NO" id="g6D-Ra-XcR">
                                 <rect key="frame" x="16" y="483" width="150" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSV-Eh-bam">
                                 <rect key="frame" x="204" y="423" width="110" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="checkUpExcel.png"/>
+                                <state key="normal" image="checkUpExcel"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAc-Ex-iKI">
                                 <rect key="frame" x="61" y="423" width="110" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="backToMySurvey.png"/>
+                                <state key="normal" image="backToMySurvey"/>
                                 <connections>
                                     <segue destination="EBO-H9-EJI" kind="unwind" unwindAction="gobackWithSegue:" id="wvZ-h5-qCZ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="๑.png" translatesAutoresizingMaskIntoConstraints="NO" id="rkQ-UC-qZh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="๑" translatesAutoresizingMaskIntoConstraints="NO" id="rkQ-UC-qZh">
                                 <rect key="frame" x="64" y="502" width="102" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1714,37 +1719,42 @@
         </scene>
     </scenes>
     <resources>
+        <image name="addDetail" width="22" height="22"/>
         <image name="addDetail.png" width="22" height="22"/>
-        <image name="addPhoto.png" width="32" height="32"/>
-        <image name="backToMySurvey.png" width="110" height="36"/>
+        <image name="addPhoto" width="32" height="32"/>
+        <image name="backToMySurvey" width="110" height="36"/>
         <image name="bg" width="220" height="216"/>
         <image name="cancel" width="120" height="40"/>
-        <image name="chatRoom.png" width="326" height="149"/>
-        <image name="checkUpExcel.png" width="110" height="36"/>
-        <image name="copy.png" width="29" height="29"/>
-        <image name="delete.png" width="36" height="36"/>
+        <image name="chatRoom" width="326" height="149"/>
+        <image name="checkUpExcel" width="110" height="36"/>
+        <image name="copy" width="29" height="29"/>
+        <image name="delete" width="36" height="36"/>
+        <image name="diman" width="40" height="40"/>
         <image name="diman.png" width="40" height="29"/>
-        <image name="drawBtn.png" width="248" height="49"/>
+        <image name="drawBtn" width="248" height="49"/>
+        <image name="filter" width="30" height="30"/>
         <image name="filter.png" width="30" height="30"/>
+        <image name="folder" width="40" height="40"/>
         <image name="folder.png" width="40" height="33"/>
         <image name="frame" width="300" height="60"/>
         <image name="frame.png" width="300" height="60"/>
-        <image name="island.png" width="375" height="418"/>
+        <image name="island" width="375" height="418"/>
         <image name="login" width="120" height="40"/>
-        <image name="lottery.png" width="326" height="149"/>
-        <image name="machine.png" width="283" height="309"/>
+        <image name="lottery" width="326" height="149"/>
+        <image name="machine" width="283" height="309"/>
+        <image name="mine" width="40" height="28"/>
         <image name="mine.png" width="40" height="28"/>
         <image name="n 3" width="383" height="95"/>
         <image name="next" width="120" height="40"/>
-        <image name="pet.png" width="158" height="158"/>
-        <image name="petNoFace.png" width="158" height="158"/>
-        <image name="reg2.png" width="375" height="672"/>
-        <image name="search.png" width="30" height="30"/>
+        <image name="pet-1" width="158" height="158"/>
+        <image name="petNoFace-1" width="158" height="158"/>
+        <image name="reg2" width="375" height="672"/>
+        <image name="search" width="30" height="30"/>
         <image name="signup-in" width="120" height="40"/>
         <image name="sinup" width="120" height="40"/>
-        <image name="submit.png" width="87" height="49"/>
+        <image name="submit" width="87" height="49"/>
         <image name="tip1" width="278" height="190"/>
-        <image name="٩๑۶.png" width="116" height="20"/>
-        <image name="๑.png" width="97" height="15"/>
+        <image name="٩๑۶" width="116" height="20"/>
+        <image name="๑" width="97" height="15"/>
     </resources>
 </document>
