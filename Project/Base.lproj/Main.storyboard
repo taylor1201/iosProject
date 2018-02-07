@@ -777,24 +777,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="N5C-mO-2Kl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App滿意調查" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uG8-mA-YtL">
-                                <rect key="frame" x="16" y="140" width="343" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="VKE-ps-pD3"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本工作室為持續提供更好的服務，特製作本問卷，以瞭解您對本工作室服務品質、服務態度與業務電腦化的看法與建議，請您依實際經驗與個人認知，回答下列所有的問題，感謝您撥冗填寫，謝謝您！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gcp-ql-QBf">
-                                <rect key="frame" x="16" y="211" width="343" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="C0r-4Y-gAj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAw-k2-4Vz">
                                 <rect key="frame" x="257" y="32" width="102" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -806,19 +788,18 @@
                                     <segue destination="rbq-fA-RQi" kind="show" id="dYS-sB-g4f"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-1檢視問卷" translatesAutoresizingMaskIntoConstraints="NO" id="l5S-s1-s9B">
+                                <rect key="frame" x="0.0" y="93" width="375" height="571"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.45098039220000002" green="0.66274509800000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="yAw-k2-4Vz" firstAttribute="top" secondItem="0HS-j3-ELb" secondAttribute="top" constant="12" id="Aau-y5-Cbh"/>
-                            <constraint firstItem="0HS-j3-ELb" firstAttribute="trailing" secondItem="Gcp-ql-QBf" secondAttribute="trailing" constant="16" id="Y6c-sq-A5h"/>
-                            <constraint firstItem="Gcp-ql-QBf" firstAttribute="leading" secondItem="0HS-j3-ELb" secondAttribute="leading" constant="16" id="aBY-Ub-0eg"/>
-                            <constraint firstItem="0HS-j3-ELb" firstAttribute="trailing" secondItem="uG8-mA-YtL" secondAttribute="trailing" constant="16" id="bry-Rf-acD"/>
-                            <constraint firstItem="Gcp-ql-QBf" firstAttribute="top" secondItem="uG8-mA-YtL" secondAttribute="bottom" constant="31" id="dsv-zQ-3yz"/>
-                            <constraint firstItem="uG8-mA-YtL" firstAttribute="leading" secondItem="0HS-j3-ELb" secondAttribute="leading" constant="16" id="gXO-h2-gXD"/>
                             <constraint firstItem="N5C-mO-2Kl" firstAttribute="top" secondItem="VFV-XN-rDC" secondAttribute="top" id="khx-xY-bqg"/>
                             <constraint firstItem="0HS-j3-ELb" firstAttribute="trailing" secondItem="yAw-k2-4Vz" secondAttribute="trailing" constant="16" id="lai-AQ-PM1"/>
+                            <constraint firstItem="l5S-s1-s9B" firstAttribute="centerX" secondItem="VFV-XN-rDC" secondAttribute="centerX" id="td0-hZ-1PB"/>
                             <constraint firstAttribute="trailing" secondItem="N5C-mO-2Kl" secondAttribute="trailing" id="u6l-8g-aNs"/>
-                            <constraint firstItem="uG8-mA-YtL" firstAttribute="top" secondItem="0HS-j3-ELb" secondAttribute="top" constant="120" id="vTy-AH-2Jj"/>
+                            <constraint firstItem="l5S-s1-s9B" firstAttribute="centerY" secondItem="VFV-XN-rDC" secondAttribute="centerY" constant="45" id="u7f-7a-Yso"/>
                             <constraint firstAttribute="bottom" secondItem="N5C-mO-2Kl" secondAttribute="bottom" id="vZ8-yd-5if"/>
                             <constraint firstItem="N5C-mO-2Kl" firstAttribute="leading" secondItem="VFV-XN-rDC" secondAttribute="leading" id="wwd-Tr-0BS"/>
                         </constraints>
@@ -827,7 +808,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GTT-bF-z5J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2190" y="861"/>
+            <point key="canvasLocation" x="2189.5999999999999" y="859.52023988005999"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="4oI-FV-kLC">
@@ -1078,7 +1059,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IIp-xR-AME">
-                                <rect key="frame" x="16" y="239" width="343" height="21"/>
+                                <rect key="frame" x="16" y="239" width="343" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Qbi-MC-nz7"/>
                                 </constraints>
@@ -1102,7 +1083,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="ZP8-hS-35A">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="760"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.45098039220000002" green="0.66274509800000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1700,6 +1681,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="3-1檢視問卷" width="375" height="571"/>
         <image name="addPhoto" width="32" height="32"/>
         <image name="backToMySurvey" width="110" height="36"/>
         <image name="bg" width="220" height="216"/>
