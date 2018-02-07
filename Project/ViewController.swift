@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBAction func goAnalysis(_ sender: Any) {
+    }
     
     
     override func viewDidLoad() {
