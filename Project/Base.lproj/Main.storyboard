@@ -1103,7 +1103,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IIp-xR-AME">
-                                <rect key="frame" x="16" y="239" width="343" height="21"/>
+                                <rect key="frame" x="16" y="239" width="343" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Qbi-MC-nz7"/>
                                 </constraints>
@@ -1127,7 +1127,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg2" translatesAutoresizingMaskIntoConstraints="NO" id="ZP8-hS-35A">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="760"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.45098039220000002" green="0.66274509800000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
