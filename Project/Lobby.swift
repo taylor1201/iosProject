@@ -42,8 +42,8 @@ class Lobby: UIViewController, UICollectionViewDelegate, UICollectionViewDataSou
             }
         } else if collectionView == select2 {
                 if let articleCell = cell as? ArticleCell {
-                    articleCell.title.text = article[indexPath.row].0
-                    articleCell.subtitle.text = article[indexPath.row].1
+                    articleCell.titlen.text = article[indexPath.row].0
+                    articleCell.subtitlen.text = article[indexPath.row].1
             }
         }
         return cell
