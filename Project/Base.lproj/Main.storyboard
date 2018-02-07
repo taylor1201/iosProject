@@ -941,7 +941,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999999999999996" contentMode="center" reuseIdentifier="test" id="qdg-as-BFx">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999999999999996" contentMode="center" reuseIdentifier="test" id="qdg-as-BFx" customClass="ArticleCell" customModule="Project" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="5.5" width="179" height="209"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -973,6 +973,10 @@
                                             <constraint firstAttribute="bottom" secondItem="gLS-kP-CHe" secondAttribute="bottom" constant="29" id="f36-Ma-NmJ"/>
                                             <constraint firstAttribute="trailing" secondItem="gLS-kP-CHe" secondAttribute="trailing" id="oSw-6p-fqM"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="subtitlen" destination="yuW-Mx-t0c" id="7th-cn-Iox"/>
+                                            <outlet property="titlen" destination="5mU-5a-f15" id="blv-8I-H6L"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -1772,6 +1776,6 @@
         <image name="๑" width="97" height="15"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="R5e-Ux-eN0"/>
+        <segue reference="97s-In-SyQ"/>
     </inferredMetricsTieBreakers>
 </document>
