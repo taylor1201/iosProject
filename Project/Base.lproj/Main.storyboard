@@ -635,6 +635,15 @@
                                 </state>
                             </button>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="zSu-wU-poB">
+                            <inset key="imageInsets" minX="-26" minY="30" maxX="26" maxY="-30"/>
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jKi-hm-bKz">
+                                <rect key="frame" x="329" y="4" width="30" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="＋"/>
+                            </button>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jHL-Zy-LBo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1001,14 +1010,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="diman.png" id="Ds8-7X-Rk6"/>
                     <navigationItem key="navigationItem" id="aXl-Ga-X9J">
-                        <barButtonItem key="leftBarButtonItem" image="filter.png" style="plain" id="PuD-5W-8bA">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IG0-1I-HZB">
-                                <rect key="frame" x="16" y="4" width="41" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="編輯"/>
-                            </button>
-                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="McG-tk-uig">
                             <inset key="imageInsets" minX="-26" minY="30" maxX="26" maxY="-30"/>
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wNj-06-oM6">
@@ -1739,7 +1740,6 @@
         <image name="diman" width="40" height="40"/>
         <image name="diman.png" width="40" height="29"/>
         <image name="drawBtn" width="248" height="49"/>
-        <image name="filter.png" width="30" height="30"/>
         <image name="folder" width="40" height="40"/>
         <image name="folder.png" width="40" height="33"/>
         <image name="frame" width="300" height="60"/>
