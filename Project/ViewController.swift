@@ -8,6 +8,8 @@
 
 import UIKit
 
+import WebKit
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var animate:UIImageView!
@@ -17,6 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         
         navigationController?.navigationBar.shadowImage = UIImage()

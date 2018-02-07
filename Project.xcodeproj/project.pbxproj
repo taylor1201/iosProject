@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F855994202B384D00C3C84E /* WebVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F855993202B384D00C3C84E /* WebVc.swift */; };
 		3FB7FBDC20276DAD004342B3 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7FBDB20276DAD004342B3 /* Account.swift */; };
 		3FB7FC0D2028308C004342B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7FC0C2028308C004342B3 /* Assets.xcassets */; };
 		3FE0AE8D2022FC7C00DF5C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AE8C2022FC7C00DF5C36 /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		2977897E9AEB1AA54CB3CE82 /* Pods-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project/Pods-Project.release.xcconfig"; sourceTree = "<group>"; };
 		2C473D2CCE72B4874B5D4596 /* Pods-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project/Pods-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		3F855993202B384D00C3C84E /* WebVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVc.swift; sourceTree = "<group>"; };
 		3FB7FBDB20276DAD004342B3 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		3FB7FC0C2028308C004342B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FE0AE892022FC7C00DF5C36 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +139,7 @@
 				3FE0AEE32027388100DF5C36 /* NewArticle.swift */,
 				3FB7FBDB20276DAD004342B3 /* Account.swift */,
 				DF2917612029D48200CB1869 /* AddQuestionnaire.swift */,
+				3F855993202B384D00C3C84E /* WebVc.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				3FE0AEB620255A9B00DF5C36 /* ArticleCell.swift in Sources */,
 				3FE0AE8D2022FC7C00DF5C36 /* AppDelegate.swift in Sources */,
 				3FE0AEE02026EC5100DF5C36 /* Detail.swift in Sources */,
+				3F855994202B384D00C3C84E /* WebVc.swift in Sources */,
 				3FE0AEE42027388100DF5C36 /* NewArticle.swift in Sources */,
 				3FB7FBDC20276DAD004342B3 /* Account.swift in Sources */,
 			);
